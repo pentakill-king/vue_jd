@@ -13,5 +13,10 @@
   color: #2c3e50;
 }
 
+.flex{
+  display: flex;
+  justify-content: space-around;
+}
+
 
 </style>
