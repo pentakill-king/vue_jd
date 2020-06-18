@@ -10,7 +10,7 @@
     <!-- 秒杀 -->
     <floor :src='"https://m.360buyimg.com/mobilecms/s376x240_jfs/t1/49601/16/12206/115887/5d91b4d5E34709952/aba2bcb4855e6e52.png!q70.jpg.dpg"' />
     <!-- 新人 -->
-    <swiper/>
+    <swiper :src='"https://m.360buyimg.com/mobilecms/s244x187_jfs/t1/149758/15/879/98663/5ee9b034E1dad011c/53c928f7836d5cf9.png!q70.jpg.dpg"' />
     <!-- 最后轮播图 -->
 
     <!-- 推荐  -->
