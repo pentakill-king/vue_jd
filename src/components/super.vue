@@ -1,6 +1,9 @@
 <template>
-<div>
-    <img  :class=img :src=src alt="">
+<div >
+    <div v-if="type==1"  >
+<img  :class=img :src=src alt="">
+    </div>
+    
 </div>
 </template>
 
@@ -9,7 +12,8 @@ export default
 {
     props:{
         src:String,
-        img:String
+        img:String,
+        type:Number
     }
  }
 </script>

@@ -14,15 +14,15 @@
     <!-- 最后轮播图 -->
 
     <!-- 推荐  -->
-    <floor :title='"推荐"' :src='"https://m.360buyimg.com/mobilecms/s184x242_jfs/t1/118105/17/7671/6607/5ec51adcEecc38818/efb859522f035697.png!q70.jpg.dpg"' />  
+    <floor :title='"推荐"' :type=1 :src='"https://m.360buyimg.com/mobilecms/s184x242_jfs/t1/118105/17/7671/6607/5ec51adcEecc38818/efb859522f035697.png!q70.jpg.dpg"' />  
     <!-- 会场 -->
-    <floor :title='"会场"' :src='"https://m.360buyimg.com/mobilecms/s184x242_jfs/t1/126229/25/2343/9161/5ec5331eE3267d774/14032c6a8f9ae628.png!q70.jpg.dpg"'/> 
+    <floor :title='"会场"' :type=1 :src='"https://m.360buyimg.com/mobilecms/s184x242_jfs/t1/126229/25/2343/9161/5ec5331eE3267d774/14032c6a8f9ae628.png!q70.jpg.dpg"'/> 
     <!-- 小院 -->
-    <floor :title='"小院"' :img='"img60"' :src='"https://m.360buyimg.com/mobilecms/s150x150_jfs/t1/65586/1/16433/58955/5ddd2dfdE84479b8f/2e782796eca0d703.jpg!q70.jpg.dpg"'/> 
+    <floor :title='"小院"' :type=1 :img='"img60"' :src='"https://m.360buyimg.com/mobilecms/s150x150_jfs/t1/65586/1/16433/58955/5ddd2dfdE84479b8f/2e782796eca0d703.jpg!q70.jpg.dpg"'/> 
     <!-- 每日逛 -->
-    <floor :title='"每日"' :img='"img60"' :src='"https://m.360buyimg.com/mobilecms/s150x150_jfs/t1/65586/1/16433/58955/5ddd2dfdE84479b8f/2e782796eca0d703.jpg!q70.jpg.dpg"'/> 
+    <floor :title='"每日"' :type=1 :img='"img60"' :src='"https://m.360buyimg.com/mobilecms/s150x150_jfs/t1/65586/1/16433/58955/5ddd2dfdE84479b8f/2e782796eca0d703.jpg!q70.jpg.dpg"'/> 
     <!-- 为你推荐 -->
-    <floor :title='"为你推荐"' :img='"img194"' :src='"https://img10.360buyimg.com/mobilecms/s372x372_jfs/t1/107528/31/11347/288336/5e86b18fEca21eb31/90561451ca51efe3.jpg!q70.dpg.webp"'/> 
+    <floor :title='"为你推荐"' :type=1 :img='"img194"' :src='"https://img10.360buyimg.com/mobilecms/s372x372_jfs/t1/107528/31/11347/288336/5e86b18fEca21eb31/90561451ca51efe3.jpg!q70.dpg.webp"'/> 
 
 </div>
 </template>
