@@ -1,7 +1,11 @@
 <template>
 <div class="flex">
    <div>分类</div>
-   <div>搜索</div>
+   <div class="flex">
+       <div>logo1</div>
+       <div>logo2</div>
+       <input type="text" placeholder="保险箱">
+   </div>
    <div>登陆</div>
 </div>
 </template>

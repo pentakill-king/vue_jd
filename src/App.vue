@@ -16,6 +16,12 @@
 .flex{
   display: flex;
   justify-content: space-around;
+  align-items: center;
+}
+.col{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 
