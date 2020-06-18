@@ -2,6 +2,7 @@
 <div >
     <div v-if="type==1"  >
 <img  :class=img :src=src alt="">
+<img  :class=img :src=src alt="">
     </div>
     
 </div>
@@ -19,7 +20,7 @@ export default
 </script>
 
  <style lang="less" scoped>
- img{
+ .img120{
      max-height: 120px;
 
  }

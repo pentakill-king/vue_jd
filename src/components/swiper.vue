@@ -1,15 +1,10 @@
 <template>
   <swiper ref="mySwiper" :options="swiperOptions">
-    <swiper-slide>
-        <img :src="src" alt="">
-        </swiper-slide>
-    <swiper-slide>
-        <img :src=src alt="">
-        </swiper-slide>
-        
-    <swiper-slide>
-        <img :src=src alt="">
-        </swiper-slide>
+   
+
+        <div class="swiper-slide" :key="src" v-for="src in srcs">
+        <img :src="src">
+      </div>
 
     <div class="swiper-pagination" slot="pagination"></div>
   </swiper>
@@ -18,12 +13,14 @@
 <script>
   export default {
       props:{
-          src:String
+          srcs:Array,
+          srcn:Number
       },
     name: 'carrousel',
     data() {
       return {
            swiperOptions: {
+               slidesPerView: this.srcn,
           pagination: {
             el: '.swiper-pagination'
           },
@@ -37,8 +34,7 @@
       }
     },
     mounted() {
-      console.log('Current Swiper instance object', this.swiper)
-      this.swiper.slideTo(3, 1000, true)
+      this.swiper.slideTo(4, 1000, true)
     }
   }
 </script> 

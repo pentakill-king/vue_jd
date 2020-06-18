@@ -4,11 +4,10 @@
     <div class="col">
       <div><img
           :src=src
-          alt=""
+         
         ></div>
       <div><img
           :src=src
-          alt=""
         ></div>
 
     </div>
@@ -18,11 +17,9 @@
       <div class="flex">
         <div><img
             :src=src
-            alt=""
           ></div>
         <div><img
             :src=src
-            alt=""
           ></div>
       </div>
       <div>5折</div>
@@ -33,11 +30,9 @@
     <div class="col">
       <div><img
           :src=src
-          alt=""
         ></div>
       <div><img
           :src=src
-          alt=""
         ></div>
     </div>
   </div>

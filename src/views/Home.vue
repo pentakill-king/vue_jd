@@ -1,8 +1,10 @@
 <template>
   <div class="home">
+    <button class="ct" @click="getdata" >获取数据</button>
     <jdheader class="fixtop"/>
     <jdct class="ct"/>
     <jdnav class="fixnav"/>
+    
   </div>
 </template>
 
@@ -19,6 +21,11 @@ export default {
     jdnav
 
 
+  },
+  methods:{
+    getdata(){
+      // 获取数据
+    }
   }
 }
 </script>
